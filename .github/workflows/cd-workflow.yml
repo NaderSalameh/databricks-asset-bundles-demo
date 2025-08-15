@@ -8,7 +8,7 @@ on:
 jobs:
   cd-deploy-staging:
     name: Deploy to Staging
-    runs-on: ubnuntu-latest
+    runs-on: ubuntu-latest
     environment: staging
     steps:
       - name: Checkout Code
